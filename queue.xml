@@ -1,0 +1,25 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<hudson.model.Queue_-State>
+  <counter>37</counter>
+  <items>
+    <hudson.model.Queue_-BuildableItem>
+      <actions>
+        <hudson.model.CauseAction>
+          <causeBag class="linked-hash-map">
+            <entry>
+              <hudson.model.Cause_-UserIdCause>
+                <userId>sagar</userId>
+              </hudson.model.Cause_-UserIdCause>
+              <int>3</int>
+            </entry>
+          </causeBag>
+        </hudson.model.CauseAction>
+      </actions>
+      <id>31</id>
+      <task class="hudson.model.FreeStyleProject">Building-java-project</task>
+      <inQueueSince>1683015058259</inQueueSince>
+      <buildableStartMilliseconds>1683015058265</buildableStartMilliseconds>
+      <isPending>false</isPending>
+    </hudson.model.Queue_-BuildableItem>
+  </items>
+</hudson.model.Queue_-State>

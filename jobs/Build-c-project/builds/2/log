@@ -1,0 +1,77 @@
+Started by user [8mha:////4LSog0wlPQVFdpAzuYWXTN96cVX94ry8iT7lSJASmTz4AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL94sT0xCIAzsYt0cAAAAA=[0msagar
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/Build-c-project
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/Build-c-project/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/sagar6460/c-program.git # timeout=10
+Fetching upstream changes from https://github.com/sagar6460/c-program.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.31.1'
+ > git fetch --tags --force --progress -- https://github.com/sagar6460/c-program.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 171643b0f2d8cf8e436cf718dac46ae9eeabcb5d (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 171643b0f2d8cf8e436cf718dac46ae9eeabcb5d # timeout=10
+Commit message: "commiting changes in macapp"
+ > git rev-list --no-walk 171643b0f2d8cf8e436cf718dac46ae9eeabcb5d # timeout=10
+[Build-c-project] $ /bin/sh -xe /tmp/jenkins16422802967802675337.sh
++ cd /var/lib/jenkins/workspace/Build-c-project
++ make
+gcc -c main.c
+main.c:1:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
+    1 | main()
+      | ^~~~
+main.c: In function ‘main’:
+main.c:3:1: warning: implicit declaration of function ‘biggest’ [-Wimplicit-function-declaration]
+    3 | biggest();
+      | ^~~~~~~
+main.c:4:1: warning: implicit declaration of function ‘factorial’ [-Wimplicit-function-declaration]
+    4 | factorial();
+      | ^~~~~~~~~
+main.c:5:1: warning: implicit declaration of function ‘reverse’ [-Wimplicit-function-declaration]
+    5 | reverse();
+      | ^~~~~~~
+main.c:6:1: warning: implicit declaration of function ‘sum’ [-Wimplicit-function-declaration]
+    6 | sum();
+      | ^~~
+main.c:7:1: warning: implicit declaration of function ‘pallidrome’ [-Wimplicit-function-declaration]
+    7 | pallidrome();
+      | ^~~~~~~~~~
+main.c:8:1: warning: implicit declaration of function ‘fibannaci’ [-Wimplicit-function-declaration]
+    8 | fibannaci();
+      | ^~~~~~~~~
+main.c:9:1: warning: implicit declaration of function ‘sort’ [-Wimplicit-function-declaration]
+    9 | sort();
+      | ^~~~
+gcc -c biggest.c
+biggest.c:2:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
+    2 | biggest()
+      | ^~~~~~~
+gcc -c factorial.c
+factorial.c:2:2: warning: return type defaults to ‘int’ [-Wimplicit-int]
+    2 |  factorial() {
+      |  ^~~~~~~~~
+gcc -c fibannaci.c
+fibannaci.c:2:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
+    2 | fibannaci() {
+      | ^~~~~~~~~
+gcc -c pallidrome.c
+pallidrome.c:2:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
+    2 | pallidrome()
+      | ^~~~~~~~~~
+gcc -c reverse.c
+reverse.c:2:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
+    2 | reverse()
+      | ^~~~~~~
+gcc -c sort.c
+sort.c:2:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
+    2 | sort()
+      | ^~~~
+gcc -c sum.c
+sum.c:2:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
+    2 | sum()
+      | ^~~
+gcc -o ABC.exe main.o biggest.o factorial.o fibannaci.o pallidrome.o reverse.o sort.o sum.o
+Finished: SUCCESS

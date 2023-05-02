@@ -1,0 +1,23 @@
+Started by user [8mha:////4LSog0wlPQVFdpAzuYWXTN96cVX94ry8iT7lSJASmTz4AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL94sT0xCIAzsYt0cAAAAA=[0msagar
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/java-project1
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/sagar6460/java-project2.git
+ > git init /var/lib/jenkins/workspace/java-project1 # timeout=10
+Fetching upstream changes from https://github.com/sagar6460/java-project2.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.31.1'
+ > git fetch --tags --force --progress -- https://github.com/sagar6460/java-project2.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/sagar6460/java-project2.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 2c8575aebc79825a20fb95e180b4b932c40283bf (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 2c8575aebc79825a20fb95e180b4b932c40283bf # timeout=10
+Commit message: "a"
+First time build. Skipping changelog.
+[java-project1] $ /bin/sh -xe /tmp/jenkins18090617436426632123.sh
+Finished: SUCCESS
